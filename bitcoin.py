@@ -14,7 +14,7 @@ def main():
 
     try:
         url = "https://rest.coincap.io/v3/assets/bitcoin"
-        headers = {"Authorization": "Bearer 0e07fc6beeecddc9d80039ef4454c4bd159dedb41fb588232b124b04681e1431"}
+        headers = {"Authorization": "Bearer:..... fill your own"}
         response = requests.get(url, headers=headers)
         response.raise_for_status()
     except requests.RequestException:
